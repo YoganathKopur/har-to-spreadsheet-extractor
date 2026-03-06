@@ -201,6 +201,12 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Ignore raw network data files
+*.har
+
+# Ignore generated spreadsheet outputs
+*.xlsx
+*.csv
 # Marimo
 marimo/_static/
 marimo/_lsp/
